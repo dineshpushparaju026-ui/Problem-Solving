@@ -1,11 +1,10 @@
-s="abedef"
-for i in s:
-   print(ord(s[i]))
+s="abcdef"
+for i in range(len(s)-1):
+    if ord(s[i+1])-ord(s[i])==1:
+        print(s[i],s[i+1])
+    
 
-
-
-
-
+print(":space")
 
 
 print(ord("a"))
