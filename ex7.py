@@ -14,3 +14,4 @@ for i in range(len(b)):
         result=result+b[i]+" "+str(dict[b[i]])+"\n"
     
 print(result)
+ 

@@ -8,8 +8,8 @@ for i in range(len(s)):
     right = i
 
     while left >= 0 and right < len(s) and s[left] == s[right]:
-        if len(s[left:right]) > len(longest):
-            longest = s[left:right]
+        if len(s[left:right+1]) > len(longest):
+            longest = s[left:right+1]
 
         left -= 1
         right += 1
@@ -20,7 +20,7 @@ for i in range(len(s)):
     right = i + 1
 
     while left >= 0 and right < len(s) and s[left] == s[right]:
-        if len(s[left:right]) > len(longest):
+        if len(s[left:right+1]) > len(longest):
             longest = s[left:right+1]
 
         left -= 1

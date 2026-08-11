@@ -1,4 +1,5 @@
-a=[1,2,3,4]
+#1st type
+a=[1,2,3,4]  
 
 for i in range(len(a)):
    b=a.copy()
@@ -11,6 +12,7 @@ for i in range(len(a)):
       mul=mul*b[j]
    print(mul)
 
+#2nd type
 a=[1,2,3,4]
 
 for i in range(len(a)):
