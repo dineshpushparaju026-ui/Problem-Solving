@@ -1,6 +1,6 @@
 secret=50
 userguess=int(input())
-attempt=0
+attempt=1
 while userguess!=secret:
     attempt=attempt+1
     if userguess>secret:
